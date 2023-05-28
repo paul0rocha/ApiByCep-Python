@@ -35,7 +35,7 @@ _"The project consists of fetching API data via PyCep"._
 
 ### RequesT
 
- address = get_address_from_cep('65350-000', webservice=WebService.CORREIOS)
+ endereco = pycep_correios.get_address_from_cep(str(cep))
   
 + Response 200 (application/json)
 
@@ -47,6 +47,14 @@ _"The project consists of fetching API data via PyCep"._
                  'cidade': 'Vitória do Mearim',
                  'logradouro': None,
                  'uf': 'MA',
+                 'complemento': None
+            },
+            {
+                 'bairro': None,
+                 'cep': '18147000',
+                 'cidade': 'Aracariguama',
+                 'logradouro': None,
+                 'uf': 'SP',
                  'complemento': None
             }
 
