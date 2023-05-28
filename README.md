@@ -55,6 +55,7 @@ _"The project consists of fetching API data via PyCep"._
 ```
 pip install pycep-correios==4.0.3
 ```
+ ![Img](https://github.com/steniowagner/mindCast/assets/63813811/46842741-3b16-4ed8-bb08-30cbd75e59d9)
 
 
 ## Contributing
