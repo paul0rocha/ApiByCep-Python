@@ -30,5 +30,3 @@ Realizamos o desenvolvimento para facilitar a busca de ceps manuais no site dos 
                  'complemento': None
             }
 
-
-### Tks!
