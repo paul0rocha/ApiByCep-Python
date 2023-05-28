@@ -1,23 +1,32 @@
-!pip install -q pycep_correios
 
-import pandas as pd 
-import numpy as np
 
-df = pd.read_excel('LOCCCC.xlsx')
+import pandas as pd
+import pycep_correios
 
-from pycep_correios import get_address_from_cep, WebService
+# Read the CEPs from an Excel file
+df = pd.read_excel('CEP.xlsx')
 
-address = get_address_from_cep('65350-000', webservice=WebService.CORREIOS)
+# Create an empty DataFrame to store the address information
+address_df = pd.DataFrame(columns=['CEP', 'Endereço', 'Bairro', 'Cidade', 'UF'])
 
-address
+# Iterate over each CEP
+for cep in df['CEP']:
+    try:
+        # Retrieve the address information for the current CEP
+        endereco = pycep_correios.get_address_from_cep(str(cep))
+        # Extract the required fields from the address information
+        cep_data = {
+            'CEP': cep,
+            'Endereço': endereco['logradouro'],
+            'Bairro': endereco['bairro'],
+            'Cidade': endereco['cidade'],
+            'UF': endereco['uf']
+        }
+        # Append the address data to the DataFrame
+        address_df = address_df.append(cep_data, ignore_index=True)
+    except:
+        # Handle any exceptions that occur during address retrieval
+        pass
 
-def tryget(cep):
-
-   try:
-     return get_address_from_cep(cep, webservice=WebService.CORREIOS)['bairro']
-   except:
-     None
-     
-   dados = df['bairro'] = df['CEP'].apply(lambda x: (tryget(x)))
-   
-   df.to_excel('do.xlsx')
+# Save the address data to a new Excel file
+address_df.to_excel('address_data.xlsx', index=False)
