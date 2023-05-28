@@ -57,13 +57,23 @@ _"The project consists of fetching API data via PyCep"._
                  'uf': 'SP',
                  'complemento': None
             }
+            
+           
+           
+  ![Img](https://github.com/steniowagner/mindCast/assets/63813811/4023b4de-8798-46f9-b5dc-3861b82baa69)
+   
+            
+            
 
 **Installing dependencies**
+
 
 ```
 pip install pycep-correios==4.0.3
 ```
  ![Img](https://github.com/steniowagner/mindCast/assets/63813811/46842741-3b16-4ed8-bb08-30cbd75e59d9)
+
+
 
 
 ## Contributing
