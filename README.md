@@ -1,17 +1,27 @@
 ## Api by Cep
 
-
-### PROJETO
-
-O projeto consiste em busca daods da API via o PyCep.
-
 ![Img](https://user-images.githubusercontent.com/63813811/194682655-63c7a583-3f56-4258-bb4c-291416bf97c2.png)
 
 
-## Aplicabilidade
+## About this Project
 
-Realizamos o desenvolvimento para facilitar a busca de ceps manuais no site dos correios pelo usuário. Já que basta o usuário realizar o upload de uma base em excel no Google Colab com os ceps contento uma coluna chamada CEP e em seguir executar o código para  obter as informações de bairro.
+The idea of ​​the program is:
 
+_"The project consists of fetching API data via PyCep"._
+
+**PS:** We carried out the development to facilitate the search for manual zip codes on the postal service website by the user. As the user only has to upload a base in excel on Google Colab with the zip codes containing a column called CEP and then run the code to obtain the neighborhood information.
+
+🤩:**
+
+
+## Some notes about this app
+
+1 - There PSQL query applies only to oracle database.
+
+## Functionalities
+
+- Query bulk data through the PyCep api and thereby return customer address data
+     
 
 ### RequesT
 
@@ -29,4 +39,18 @@ Realizamos o desenvolvimento para facilitar a busca de ceps manuais no site dos 
                  'uf': 'MA',
                  'complemento': None
             }
+
+## Contributing
+
+You can send how many PR's do you want, I'll be glad to analyse and accept them! And if you have any question about the project...
+
+Email-me: pauloseng80@gmail.com.com
+
+Connect with me at [LinkedIn](https://www.linkedin.com/in/pauloroch/)
+
+Thank you!
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/paul0rocha/mindCast/blob/master/LICENSE) file for details
 
