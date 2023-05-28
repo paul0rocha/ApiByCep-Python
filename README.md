@@ -21,8 +21,15 @@ _"The project consists of fetching API data via PyCep"._
 
 ## Functionalities
 
-- Query bulk data through the PyCep api and thereby return customer address data
-     
+- Query bulk data through the PyCep api and thereby return customer address data  
+
+## Use
+
+ - Upload the file excel to google colab
+   ![Img](https://github.com/steniowagner/mindCast/assets/63813811/4a2e4d83-50e0-48aa-8c9a-212516faaa89)
+   
+     ![Img](https://github.com/steniowagner/mindCast/assets/63813811/4c0f7c9a-4e72-4987-b507-2e5549d6f7a0)
+
 
 ### RequesT
 
