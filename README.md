@@ -27,7 +27,9 @@ _"The project consists of fetching API data via PyCep"._
 ## Use
 
  - Upload the file excel to google colab
-   ![Img](https://github.com/steniowagner/mindCast/assets/63813811/4a2e4d83-50e0-48aa-8c9a-212516faaa89)
+ 
+ 
+ ![Img](https://github.com/steniowagner/mindCast/assets/63813811/4a2e4d83-50e0-48aa-8c9a-212516faaa89)
    
     
 
