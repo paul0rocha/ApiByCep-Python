@@ -53,7 +53,7 @@ _"The project consists of fetching API data via PyCep"._
 **Installing dependencies**
 
 ```
-pip install pycep-correios
+pip install pycep-correios==4.0.3
 ```
 
 
