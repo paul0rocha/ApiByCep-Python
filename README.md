@@ -1,7 +1,8 @@
 ## Api by Cep
 
 
-![Img](https://user-images.githubusercontent.com/63813811/194682655-63c7a583-3f56-4258-bb4c-291416bf97c2.png)
+ ![Img](https://github.com/steniowagner/mindCast/assets/63813811/4c0f7c9a-4e72-4987-b507-2e5549d6f7a0)
+
 
 
 ## About this Project
@@ -28,8 +29,7 @@ _"The project consists of fetching API data via PyCep"._
  - Upload the file excel to google colab
    ![Img](https://github.com/steniowagner/mindCast/assets/63813811/4a2e4d83-50e0-48aa-8c9a-212516faaa89)
    
-     ![Img](https://github.com/steniowagner/mindCast/assets/63813811/4c0f7c9a-4e72-4987-b507-2e5549d6f7a0)
-
+    
 
 ### RequesT
 
