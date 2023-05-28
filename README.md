@@ -1,5 +1,6 @@
 ## Api by Cep
 
+
 ![Img](https://user-images.githubusercontent.com/63813811/194682655-63c7a583-3f56-4258-bb4c-291416bf97c2.png)
 
 
@@ -16,7 +17,7 @@ _"The project consists of fetching API data via PyCep"._
 
 ## Some notes about this app
 
-1 - There PSQL query applies only to oracle database.
+1 - We use the google colab platform to use the application
 
 ## Functionalities
 
