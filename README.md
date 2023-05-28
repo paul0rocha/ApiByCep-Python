@@ -50,6 +50,13 @@ _"The project consists of fetching API data via PyCep"._
                  'complemento': None
             }
 
+**Installing dependencies**
+
+```
+pip install pycep-correios
+```
+
+
 ## Contributing
 
 You can send how many PR's do you want, I'll be glad to analyse and accept them! And if you have any question about the project...
