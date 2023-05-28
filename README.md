@@ -58,12 +58,7 @@ _"The project consists of fetching API data via PyCep"._
                  'complemento': None
             }
             
-           
-           
-  ![Img](https://github.com/steniowagner/mindCast/assets/63813811/4023b4de-8798-46f9-b5dc-3861b82baa69)
-   
-            
-            
+
 
 **Installing dependencies**
 
